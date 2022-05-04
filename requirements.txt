@@ -69,7 +69,6 @@ pandas==1.4.2
 pandocfilters==1.5.0
 parso==0.8.3
 pdfminer.six==20220319
-pdftopng==0.2.3
 pexpect==4.8.0
 pickleshare==0.7.5
 Pillow==9.1.0
