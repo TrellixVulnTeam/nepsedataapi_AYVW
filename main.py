@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 import todaysprice as tps
 import liveprice as lps
-import floorsheet as fls
+#import floorsheet as fls
 app = FastAPI()
 
 @app.get('/')
@@ -15,7 +15,3 @@ async def liveprice():
 @app.get('/todayprice')
 async def todaysprice():
     return tps.todaysprice
-
-@app.get('/floorsheet')
-async def floorsheet():
-    return fls.floorsheet
